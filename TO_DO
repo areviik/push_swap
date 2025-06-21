@@ -1,0 +1,15 @@
+Arevik: Creating stack a and stack b
+Arevik: Operations / sa, sb, ss, pa, pb, ra, rb, rr, rra, rrb, rrr
+Arevik: Functions
+Arevik: Init and delete stack
+Arevik: Pushing and popping of the elements
+Arevik: Check duplicates and Parse argv
+Arevik: Create checker
+
+Marianna: Sort algorithms
+Marianna: Validations
+Marianna: Optimization
+Marianna: For 2, 3, 5 numbers - hard-coded algorithms
+Marianna: For a large number of numbers - sorting with indices, chunk method
+Marianna: Building a minimal command sequence
+Marianna: Printing commands
