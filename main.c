@@ -2,8 +2,8 @@
 
 int main(int argc, char **argv)
 {
-    t_stack a;
-    t_stack b;
+    t_stack *a;
+    t_stack *b;
 
     if (argc < 2)
     {
@@ -15,5 +15,6 @@ int main(int argc, char **argv)
     /*
         MUST BE: Validation check and Sort check (if not sorted SORT);
     */
-   return (0);
+    free(&a);
+    return (0);
 }
