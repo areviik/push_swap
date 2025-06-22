@@ -15,6 +15,8 @@ typedef struct s_stack
     struct s_stack *next;
 } t_stack;
 
-
+void sa(t_stack **a);
+void sb(t_stack **b);
+void ss(t_stack **a, t_stack **b);
 
 #endif
