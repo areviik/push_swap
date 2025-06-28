@@ -24,7 +24,7 @@ void rb(t_stack **b)
 
 void rr(t_stack **a, t_stack **b)
 {
-    if ((!a && !*a) && (!b || !*b))
+    if ((!a || !*a) && (!b || !*b))
         return ;
     if (a && *a)
         up(a);
