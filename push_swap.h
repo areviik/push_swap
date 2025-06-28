@@ -25,5 +25,8 @@ void pop_down(t_stack **lst);
 void pa(t_stack **a, t_stack **b);
 void pb(t_stack **a, t_stack **);
 int stack_size(t_list *a);
+void ra(t_stack **a);
+void rb(t_stack **b);
+void rr(t_stack **a, t_stack **b);
 
 #endif
