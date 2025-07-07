@@ -2,7 +2,7 @@ NAME		= push_swap
 BONUS_NAME	= checker
 
 CC			= cc
-CFLAGS		= -Wall -Wextra -Werror -g3
+CFLAGS		= -Wall -Wextra -Werror
 INCLUDES	= -I.
 
 MANDATORY_SRCS	= mandatory/chunk_sort.c \
