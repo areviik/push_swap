@@ -45,7 +45,11 @@ void	read_input(t_stack **a, t_stack **b)
 	{
 		str = get_next_line(0);
 		if (str)
+		{
+			if (str[0] == '\n')
+			    get_next_line(-1);
 			check_type(str, a, b);
+		}
 		else
 			break ;
 		free(str);
